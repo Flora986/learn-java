@@ -9,13 +9,17 @@ main Java knowledeg
 （3）类变量：有static
 
 2.Java中的日期时间
-（1）将Date类型转换为String类型需要用到SimpleDateFormat的format方法：
-Date date = new Date( );
-SimpleDateFormat sdf = new SimpleDateFormat ("yyyy-MM-dd hh:mm:ss");
-System.out.println("当前时间为: " + sdf.format(date));
+  （1）将Date类型转换为String类型需要用到SimpleDateFormat的format方法：
+  Date date = new Date( );
+  SimpleDateFormat sdf = new SimpleDateFormat ("yyyy-MM-dd hh:mm:ss");
+  System.out.println("当前时间为: " + sdf.format(date));
 
-（2）String转为Date，用SimpleDateFormat的parse方法：
-SimpleDateFormat sdf = new SimpleDateFormat ("yyyy-MM-dd"); 
-String str = "1818-11-11" ; 
-Date date; 
-date = sdf.parse(str); 
+  （2）String转为Date，用SimpleDateFormat的parse方法：
+  SimpleDateFormat sdf = new SimpleDateFormat ("yyyy-MM-dd"); 
+  String str = "1818-11-11" ; 
+  Date date; 
+  date = sdf.parse(str); 
+  
+3.Java中的内部类
+
+4.Java中的static
