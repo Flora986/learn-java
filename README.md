@@ -24,4 +24,11 @@ main Java knowledeg
 
 ##4.Java中的static
 
-##5.
+##5.Java数组的内容
++ 冒泡排序：
++ 1.定义一个数组：int[] a = {1,6,2,8};
++ 2.定义外层for循环int i= 1;i < 数组的length；i++。
++ 3.定义内层for循环int j= 1;j < 数组的length-i;j++;
++ 4.内层for循环中添加if判断：如果a[j] >  a[j+1]，
++ 5.定义临时变量交换数值：int temp = a[j];a[j]=a[j+1];a[j+1] = temp;
++ 6.排序后输出数组System.out.println(Arrays.toString(a));
