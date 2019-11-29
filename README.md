@@ -32,3 +32,14 @@ main Java knowledeg
 + 4.内层for循环中添加if判断：如果a[j] >  a[j+1]，
 + 5.定义临时变量交换数值：int temp = a[j];a[j]=a[j+1];a[j+1] = temp;
 + 6.排序后输出数组System.out.println(Arrays.toString(a));
+
+##6.JVM核心
+1.JVM运行和类加载全过程
+1）类加载机制-JVM把class文件加载到内存，并对数据进行校验、解析和初始化，最终形成JVM
+可以直接使用的Java类型的过程。
+--加载：将字节码文件加载到内存中
+--链接：将
+ ---验证
+ ---准备
+ ---解析
+--初始化
